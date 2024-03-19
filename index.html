@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bootstrap Slider</title>
+  </head>
+  <body>
+    <section>
+      <div class="container text-center p-5 shadow">
+        <h2 class="text-center bg-success py-5 text-light">
+          Responsive Slider
+        </h2>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="mt-5">
+            <h2>What Your Client Says</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis blanditiis.
+            </p>
+          </div>
+          <!-- Slide Inner -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="item">
+                <img src="./assets/dr-alisa.png" class="shadow" alt="alisa" />
+              </div>
+              <h2>Dr. Alisa</h2>
+              <p class="lead">Lorem, ipsum dolor.</p>
+
+              <div class="icon">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="lead">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
+                rem id repellat blanditiis, quibusdam nisi aliquid expedita
+                dolore ex, corrupti modi iusto labore nulla, asperiores qui
+                itaque aperiam amet distinctio!
+              </p>
+            </div>
+            <div class="carousel-item">
+              <div class="item">
+                <img src="./assets/dr-antony.png" class="shadow" alt="antony" />
+              </div>
+              <h2>Dr. Antony</h2>
+              <p>Lorem, ipsum dolor.</p>
+
+              <div class="icon">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="lead">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
+                rem id repellat blanditiis, quibusdam nisi aliquid expedita
+                dolore ex, corrupti modi iusto labore nulla, asperiores qui
+                itaque aperiam amet distinctio!
+              </p>
+            </div>
+            <div class="carousel-item">
+              <div class="item">
+                <img src="./assets/dr-khalid.png" class="shadow" alt="Khalid" />
+              </div>
+              <h2>Dr. Khalid</h2>
+              <p class="lead">Lorem, ipsum dolor.</p>
+
+              <div class="icon">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="lead">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
+                rem id repellat blanditiis, quibusdam nisi aliquid expedita
+                dolore ex, corrupti modi iusto labore nulla, asperiores qui
+                itaque aperiam amet distinctio!
+              </p>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
